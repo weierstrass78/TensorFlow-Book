@@ -14,6 +14,7 @@ Get started with machine learning using TensorFlow, Google's latest and greatest
 * Listing 9: spikes.py
 * Listing 10: saving_vars.py
 * Listing 11: loading_vars.py
+* Listings 12-15: moving_avg.py
 
 # Regression (Chapter 3): 
 
@@ -27,4 +28,4 @@ Get started with machine learning using TensorFlow, Google's latest and greatest
 * Listing 1-3: linear_1d.py
 * Listing 4: logistic_1d.py
 * Listing 5: logistic_2d.py
-* Listing 6-8: softmax.py
+* Listing 6-10: softmax.py
