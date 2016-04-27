@@ -7,7 +7,7 @@
 Get started with machine learning using TensorFlow, Google's latest and greatest machine learning library.
 
 
-# [Ch 2](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch02_basics) - Machine Learning Basics
+# [Ch 2](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch02_basics) - TensorFlow Basics
 
 * Listings 2-4: `types.py`
 * Listings 5-6: `main.py`
