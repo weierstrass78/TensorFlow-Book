@@ -49,13 +49,9 @@ class SOM:
         return bmu_loc
 
     def get_locs(self):
-        locs = np.array([])
-        for y in range(self.height):
-            for x in range(self.width):
-                if np.size(locs) == 0:
-                    locs = [[x, y]]
-                else:
-                    locs = np.vstack((locs, [x, y]))
+        locs = [[x, y]
+                for y in range(self.height)
+                for x in range(self.width)]
         return tf.to_float(locs)
 
     def train(self, data):
