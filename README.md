@@ -34,30 +34,30 @@ Get started with machine learning using TensorFlow, Google's latest and greatest
 
 # [Ch 5](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch05_clustering) - Clustering
 
-(Coming May 2016)
-
-# Ch 6 - Prediction
-
 * Listing 1-4: audio_clustering.py
 * Listing 5-6: audio_segmentation.py
 * Listing 7-12: som.py
 
-# Ch 7 - Anomaly Detection
+# [Ch 6](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch06_planning) - Prediction
 
 * Listing 1-10: rl.py
 
+# Ch 7 - Anomaly Detection
+
+(Coming September 2016)
+
 # Ch 8 - Autoencoders
 
-(Coming June 2016)
+(Coming September 2016)
 
 # Ch 9 - Convolutional Neural Networks
 
-(Coming June 2016)
+(Coming September 2016)
 
 # Ch 10 - Recurrent Neural Network
 
-(Coming June 2016)
+(Coming September 2016)
 
 # Ch 11 - Advanced Deep Architectures
 
-(Coming July 2016)
+(Coming September 2016)
