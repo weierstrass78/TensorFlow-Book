@@ -9,14 +9,14 @@ Get started with machine learning using TensorFlow, Google's latest and greatest
 
 # [Ch 2](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch02_basics) - TensorFlow Basics
 
-* Listings 2-4: `types.py`
-* Listings 5-6: `main.py`
+* Listing 2-4: `types.py`
+* Listing 5-6: `main.py`
 * Listing 7: `interactive_session.py`
 * Listing 8: `logging.py`
 * Listing 9: `spikes.py`
 * Listing 10: `saving_vars.py`
 * Listing 11: `loading_vars.py`
-* Listings 12-15: `moving_avg.py`
+* Listing 12-15: `moving_avg.py`
 
 # [Ch 3](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch03_regression) - Regression
 
@@ -38,11 +38,13 @@ Get started with machine learning using TensorFlow, Google's latest and greatest
 
 # Ch 6 - Prediction
 
-(Coming May 2016)
+* Listing 1-4: audio_clustering.py
+* Listing 5-6: audio_segmentation.py
+* Listing 7-12: som.py
 
 # Ch 7 - Anomaly Detection
 
-(Coming June 2016)
+* Listing 1-10: rl.py
 
 # Ch 8 - Autoencoders
 
