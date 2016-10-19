@@ -21,7 +21,7 @@ for i in range(1, len(raw_data)):
         updater.eval()
     else:
         tf.assign(spike, False).eval()
-    print("Spike: ", spike.eval())
+    print("Spike", spike.eval())
 
 sess.close()
 
