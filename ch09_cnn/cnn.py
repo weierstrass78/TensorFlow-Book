@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import cifar_tools
 import tensorflow as tf
 
-learning_rate = 0.01
+learning_rate = 0.001
 
 names, data, labels = \
     cifar_tools.read_data('/home/binroot/res/cifar-10-batches-py')
