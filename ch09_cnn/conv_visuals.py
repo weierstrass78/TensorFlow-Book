@@ -35,12 +35,12 @@ def show_weights(W, filename=None):
         plt.show()
 
 raw_data = data[4, :]
-raw_img = np.reshape(raw_data, (32, 32))
+raw_img = np.reshape(raw_data, (24, 24))
 plt.figure()
 plt.imshow(raw_img, cmap='Greys_r')
 plt.savefig('input_image.png')
 
-x = tf.reshape(raw_data, shape=[-1, 32, 32, 1])
+x = tf.reshape(raw_data, shape=[-1, 24, 24, 1])
 W = tf.Variable(tf.random_normal([5, 5, 1, 32]))
 b = tf.Variable(tf.random_normal([32]))
 

@@ -9,8 +9,10 @@ from autoencoder import Autoencoder
 #     for i in range(len(x)/3):
 #         gray[i] = (x[i] + x[2*i] + x[3*i]) / 3
 
+
 def grayscale(a):
     return a.reshape(a.shape[0], 3, 32, 32).mean(1).reshape(a.shape[0], -1)
+
 
 def unpickle(file):
     fo = open(file, 'rb')

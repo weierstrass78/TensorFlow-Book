@@ -3,18 +3,18 @@ import matplotlib.pyplot as plt
 import cifar_tools
 import tensorflow as tf
 
-learning_rate = 0.001
+learning_rate = 0.01
 
 names, data, labels = \
     cifar_tools.read_data('/home/binroot/res/cifar-10-batches-py')
 
-x = tf.placeholder(tf.float32, [None, 32 * 32])
+x = tf.placeholder(tf.float32, [None, 24 * 24])
 y = tf.placeholder(tf.float32, [None, len(names)])
-W1 = tf.Variable(tf.random_normal([5, 5, 1, 32]))
-b1 = tf.Variable(tf.random_normal([32]))
-W2 = tf.Variable(tf.random_normal([5, 5, 32, 64]))
+W1 = tf.Variable(tf.random_normal([5, 5, 1, 64]))
+b1 = tf.Variable(tf.random_normal([64]))
+W2 = tf.Variable(tf.random_normal([5, 5, 64, 64]))
 b2 = tf.Variable(tf.random_normal([64]))
-W3 = tf.Variable(tf.random_normal([8*8*64, 1024]))
+W3 = tf.Variable(tf.random_normal([6*6*64, 1024]))
 b3 = tf.Variable(tf.random_normal([1024]))
 W_out = tf.Variable(tf.random_normal([1024, len(names)]))
 b_out = tf.Variable(tf.random_normal([len(names)]))
@@ -32,7 +32,7 @@ def maxpool_layer(conv, k=2):
 
 
 def model():
-    x_reshaped = tf.reshape(x, shape=[-1, 32, 32, 1])
+    x_reshaped = tf.reshape(x, shape=[-1, 24, 24, 1])
 
     conv_out1 = conv_layer(x_reshaped, W1, b1)
     maxpool_out1 = maxpool_layer(conv_out1)
@@ -44,7 +44,6 @@ def model():
     maxpool_reshaped = tf.reshape(maxpool_out2, [-1, W3.get_shape().as_list()[0]])
     local = tf.add(tf.matmul(maxpool_reshaped, W3), b3)
     local_out = tf.nn.relu(local)
-    # local_out = tf.nn.dropout(local_out, 0.75)
 
     out = tf.add(tf.matmul(local_out, W_out), b_out)
     return out

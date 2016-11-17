@@ -9,14 +9,19 @@ def unpickle(file):
     return dict
 
 
-def grayscale(a):
-    return a.reshape(a.shape[0], 3, 32, 32).mean(1).reshape(a.shape[0], -1)
-
-
-def normalize(a):
-    m = np.mean(a)
-    adj_std = max(np.std(a), 1.0/np.sqrt(len(a)))
-    return (a - m) / adj_std
+def clean(data):
+    imgs = data.reshape(data.shape[0], 3, 32, 32)
+    grayscale_imgs = imgs.mean(1)
+    cropped_imgs = grayscale_imgs[:, 4:28, 4:28]
+    img_data = cropped_imgs.reshape(data.shape[0], -1)
+    img_size = np.shape(img_data)[1]
+    means = np.mean(img_data, axis=1)
+    meansT = means.reshape(len(means), 1)
+    stds = np.std(img_data, axis=1)
+    stdsT = stds.reshape(len(stds), 1)
+    adj_stds = np.maximum(stdsT, 1.0 / np.sqrt(img_size))
+    normalized = (img_data - meansT) / adj_stds
+    return normalized
 
 
 def read_data(directory):
@@ -36,6 +41,6 @@ def read_data(directory):
 
     print(np.shape(data), np.shape(labels))
 
-    data = normalize(grayscale(data))
+    data = clean(data)
     data = data.astype(np.float32)
     return names, data, labels
