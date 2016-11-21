@@ -27,24 +27,25 @@ Get started with machine learning using TensorFlow, Google's latest and greatest
 
 # [Ch 4](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch04_classification) - Classification
 
-* Listing 1-3: linear_1d.py
-* Listing 4: logistic_1d.py
-* Listing 5: logistic_2d.py
-* Listing 6-10: softmax.py
+* Listing 1-3: `linear_1d.py`
+* Listing 4: `logistic_1d.py`
+* Listing 5: `logistic_2d.py`
+* Listing 6-10: `softmax.py`
 
 # [Ch 5](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch05_clustering) - Clustering
 
-* Listing 1-4: audio_clustering.py
-* Listing 5-6: audio_segmentation.py
-* Listing 7-12: som.py
+* Listing 1-4: `audio_clustering.py`
+* Listing 5-6: `audio_segmentation.py`
+* Listing 7-12: `som.py`
 
 # [Ch 6](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch06_planning) - Prediction
 
-* Listing 1-10: rl.py
+* Listing 1-10: `rl.py`
 
 # Ch 7 - Anomaly Detection
 
-(Coming September 2016)
+* Listing 1-6: `forward.py`
+* Listing 7-11: `hmm.py`
 
 # Ch 8 - Autoencoders
 
