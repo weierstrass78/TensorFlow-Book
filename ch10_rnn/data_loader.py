@@ -8,12 +8,13 @@ def load_series(filename, series_idx=1):
         with open(filename, 'rb') as csvfile:
             csvreader = csv.reader(csvfile)
             data = [float(row[series_idx]) for row in csvreader if len(row) > 0]
-        return data
+            normalized_data = (data - np.mean(data)) / np.std(data)
+        return normalized_data
     except IOError:
         return None
 
 
-def split_data(data, percent_train=0.70):
+def split_data(data, percent_train=0.80):
     num_rows = len(data)
     train_data, test_data = [], []
     for idx, row in enumerate(data):
