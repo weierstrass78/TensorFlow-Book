@@ -25,10 +25,6 @@ class SeriesPredictor:
         # Auxiliary ops
         self.saver = tf.train.Saver()
 
-    def set_seq_size(self, seq_size):
-        self.x = tf.placeholder(tf.float32, [None, seq_size, self.input_dim])
-        self.y = tf.placeholder(tf.float32, [None, seq_size])
-
     def model(self):
         """
         :param x: inputs of size [T, batch_size, input_size]
