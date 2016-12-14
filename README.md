@@ -1,13 +1,14 @@
 # [Machine Learning with TensorFlow](http://www.tensorflowbook.com/)
 
-[This](https://github.com/BinRoot/TensorFlow-Book) is the official code repository for [the book](http://www.tensorflowbook.com/).
+[This](https://github.com/BinRoot/TensorFlow-Book) is the official code repository for [Machine Learning with TensorFlow](http://www.tensorflowbook.com/).
 
-
+**Warning**: The book will be released in a month or two, so this repo is a **pre-release** of the entire code. I will be heavily updating this repo in the coming weeks. Stay tuned, and follow along! :)
 
 Get started with machine learning using TensorFlow, Google's latest and greatest machine learning library.
 
+# Summary
 
-# [Ch 2](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch02_basics) - TensorFlow Basics
+## [Ch 2](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch02_basics) - TensorFlow Basics
 
 * Listing 2-4: `types.py`
 * Listing 5-6: `main.py`
@@ -18,47 +19,47 @@ Get started with machine learning using TensorFlow, Google's latest and greatest
 * Listing 11: `loading_vars.py`
 * Listing 12-15: `moving_avg.py`
 
-# [Ch 3](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch03_regression) - Regression
+## [Ch 3](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch03_regression) - Regression
 
 * Listing 1-2: `simple_model.py`
 * Listing 3: `polynomial_model.py`
 * Listing 4-5: `regularization.py`
 * Listing 6: `data_reader.py`
 
-# [Ch 4](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch04_classification) - Classification
+## [Ch 4](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch04_classification) - Classification
 
 * Listing 1-3: `linear_1d.py`
 * Listing 4: `logistic_1d.py`
 * Listing 5: `logistic_2d.py`
 * Listing 6-10: `softmax.py`
 
-# [Ch 5](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch05_clustering) - Clustering
+## [Ch 5](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch05_clustering) - Clustering
 
 * Listing 1-4: `audio_clustering.py`
 * Listing 5-6: `audio_segmentation.py`
 * Listing 7-12: `som.py`
 
-# [Ch 6](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch06_planning) - Prediction
-
-* Listing 1-10: `rl.py`
-
-# Ch 7 - Anomaly Detection
+## [Ch 6](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch06_hmm) - Hidden markov models
 
 * Listing 1-6: `forward.py`
 * Listing 7-11: `hmm.py`
 
-# Ch 8 - Autoencoders
+## [Ch 7](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch07_autoencoder) - Autoencoders
 
-(Coming September 2016)
+(Coming December 2016)
 
-# Ch 9 - Convolutional Neural Networks
+## [Ch 8](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch08_rl) - Reinforcement learning
 
-(Coming September 2016)
+* Listing 1-10: `rl.py`
 
-# Ch 10 - Recurrent Neural Network
+## [Ch 9](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch09_cnn) - Convolutional Neural Networks
 
-(Coming September 2016)
+(Coming December 2016)
 
-# Ch 11 - Advanced Deep Architectures
+## [Ch 10](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch10_rnn) - Recurrent Neural Network
 
-(Coming September 2016)
+(Coming December 2016)
+
+## Ch 11 - Advanced Deep Architectures
+
+(Coming January 2017)
