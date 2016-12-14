@@ -14,3 +14,10 @@ The previous chapter dealt with regression, which was about fitting a curve to d
 - **Concept 2**: Logistic regression
 - **Concept 3**: 2D Logistic regression
 - **Concept 4**: Softmax classification
+
+---
+
+* Listing 1-3: `linear_1d.py`
+* Listing 4: `logistic_1d.py`
+* Listing 5: `logistic_2d.py`
+* Listing 6-10: `softmax.py`

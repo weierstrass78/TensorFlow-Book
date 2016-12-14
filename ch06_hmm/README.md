@@ -12,3 +12,8 @@ This chapter is about exposing the hidden explanations behind observations. Cons
 
 - **Concept 1**: Forward algorithm
 - **Concept 2**: Viterbi decode
+
+--
+
+* Listing 1-6: `forward.py`
+* Listing 7-11: `hmm.py`

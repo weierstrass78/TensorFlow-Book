@@ -7,3 +7,7 @@ Humans learn from past experiences (or, you know, at least they should). You did
 Consider the following examples. You learn what makes people happy by interacting with friends, family, or even strangers, and you figure out how to ride a bike by trying out different muscle movements until it just clicks. When you perform actions, you’re sometimes rewarded immediately. For example, finding a restaurant nearby might yield instant gratification. Other times, the reward doesn’t appear right away, such as travelling a long distance to find an exceptional place to eat. Reinforcement learning is all about making the right actions given any state.
 
 - **Concept 1**: Reinforcement learning
+
+---
+
+* Listing 1-10: `rl.py`

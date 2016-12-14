@@ -13,3 +13,10 @@ This chapter will show you how to formulate a real world problem to use regressi
 - **Concept 1**: Linear regression
 - **Concept 2**: Polynomial regression
 - **Concept 3**: Regularization
+
+---
+
+* Listing 1-2: `simple_model.py`
+* Listing 3: `polynomial_model.py`
+* Listing 4-5: `regularization.py`
+* Listing 6: `data_reader.py`
