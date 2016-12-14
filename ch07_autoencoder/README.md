@@ -10,3 +10,7 @@ Instead of songs, in this chapter, we will approximate functions. Functions are 
 Conveniently, artificial neural networks are a model in machine learning that can approximate any function. Given training data, we want to build a neural network model that best approximates the implicit function that might have generated the data.
 
 After introducing neural networks in section 8.1, we’ll learn how to use them to encode data into a smaller representation in section 8.2, using a network structure called an autoencoder. 
+
+- **Concept 1**: Autoencoder
+- **Concept 2**: Applying an autoencoder to images
+- **Concept 3**: Denoising autoencoder

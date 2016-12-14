@@ -8,4 +8,8 @@ Imagine plotting the correlation between rainfall frequency and agriculture prod
 
 Regression is a study of how to best fit a curve to summarize your data. It is one of the most powerful and well-studied types of supervised learning algorithms. In regression, we try to understand the data points by discovering the curve that might have generated them. In doing so, we seek an explanation for why the given data is scattered the way it is. The best fit curve gives us a model for explaining how the dataset might have been produced.
 
-This chapter will show you how to formulate a real world problem to use regression. As you’ll see, TensorFlow is just the right tool that endows us with some of the most powerful predictors. 
+This chapter will show you how to formulate a real world problem to use regression. As you’ll see, TensorFlow is just the right tool that endows us with some of the most powerful predictors.
+
+- **Concept 1**: Linear regression
+- **Concept 2**: Polynomial regression
+- **Concept 3**: Regularization

@@ -9,3 +9,6 @@ If a rocket blows up, someone’s probably getting fired, so rocket scientists a
 Part of the reason for this influx can be attributed to better understanding of interpretable models, which are machine learning models where the learned parameters have clear interpretations. If a rocket blows up, for example, an interpretable model might help trace the root cause.
 
 This chapter is about exposing the hidden explanations behind observations. Consider a puppet-master pulling strings to make a puppet appear alive. Analyzing only the motions of the puppet might lead to over-complicated conclusions about how it’s possible for an inanimate object to move. Once you notice the attached strings, you’ll realize that a puppet-master is the best explanation for the life-like motions. 
+
+- **Concept 1**: Forward algorithm
+- **Concept 2**: Viterbi decode

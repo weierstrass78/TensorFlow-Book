@@ -10,4 +10,8 @@ Spotify, SoundCloud, Google Music, Pandora, and many other music streaming servi
 
 The overall idea of clustering is that two items in the same cluster are “closer” to each other than items that belong to separate clusters. That is the general definition, leaving the interpretation of “closeness” open. For example, perhaps cheetahs and leopards belong in the same cluster, whereas elephants belong to another when closeness is measured by how similar two species are in the hierarchy of biological classification (family, genus, and species).
 
-You can image there are many clustering algorithms out there. In this chapter we’ll focus on two types, namely k-means and self-organizing map. These approaches are completely unsupervised, meaning they fit a model without ground-truth examples. 
+You can image there are many clustering algorithms out there. In this chapter we’ll focus on two types, namely k-means and self-organizing map. These approaches are completely unsupervised, meaning they fit a model without ground-truth examples.
+
+- **Concept 1**: Clustering
+- **Concept 2**: Segmentation
+- **Concept 3**: Self-organizing map

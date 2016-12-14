@@ -8,4 +8,9 @@ It may be difficult to cater a specially crafted advertisement for each individu
 
 Machine learning has been the go-to tool to accomplish such as task. At the most fundamental level, machine learning practitioners want to build a tool to help them understand data. Being able to label data items into separate categories is an excellent way to characterize it for specific needs.
 
-The previous chapter dealt with regression, which was about fitting a curve to data. If you recall, the best-fit curve is a function that takes as input a data item and assigns it a number. Creating a machine learning model that instead assigns discrete labels to its inputs is called classification. It is a supervised learning algorithm for dealing with discrete output. (Each discrete value is called a class.) The input is typically a feature vector, and the output is a class. If there are only two class labels (for example, True/False, On/Off, Yes/No), then we call this learning algorithm a binary classifier. Otherwise, it’s called a multiclass classifier. 
+The previous chapter dealt with regression, which was about fitting a curve to data. If you recall, the best-fit curve is a function that takes as input a data item and assigns it a number. Creating a machine learning model that instead assigns discrete labels to its inputs is called classification. It is a supervised learning algorithm for dealing with discrete output. (Each discrete value is called a class.) The input is typically a feature vector, and the output is a class. If there are only two class labels (for example, True/False, On/Off, Yes/No), then we call this learning algorithm a binary classifier. Otherwise, it’s called a multiclass classifier.
+
+- **Concept 1**: Linear regression for classification
+- **Concept 2**: Logistic regression
+- **Concept 3**: 2D Logistic regression
+- **Concept 4**: Softmax classification
