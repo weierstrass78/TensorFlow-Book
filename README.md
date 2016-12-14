@@ -8,7 +8,7 @@ Get started with machine learning using TensorFlow, Google's latest and greatest
 
 # Summary
 
-## [Chapter :two:](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch02_basics) - TensorFlow Basics
+## [Chapter 2](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch02_basics) - TensorFlow Basics
 
 - **Concept 1**: Defining tensors
 - **Concept 2**: Evaluating ops
@@ -19,47 +19,47 @@ Get started with machine learning using TensorFlow, Google's latest and greatest
 - **Concept 7**: Loading variables
 - **Concept 8**: TensorBoard
 
-## [Chapter :three:](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch03_regression) - Regression
+## [Chapter 3](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch03_regression) - Regression
 
 - **Concept 1**: Linear regression
 - **Concept 2**: Polynomial regression
 - **Concept 3**: Regularization
 
-## [Chapter :four:](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch04_classification) - Classification
+## [Chapter 4](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch04_classification) - Classification
 
 - **Concept 1**: Linear regression for classification
 - **Concept 2**: Logistic regression
 - **Concept 3**: 2D Logistic regression
 - **Concept 4**: Softmax classification
 
-## [Chapter :five:](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch05_clustering) - Clustering
+## [Chapter 5](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch05_clustering) - Clustering
 
 - **Concept 1**: Clustering
 - **Concept 2**: Segmentation
 - **Concept 3**: Self-organizing map
 
-## [Chapter :six:](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch06_hmm) - Hidden markov models
+## [Chapter 6](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch06_hmm) - Hidden markov models
 
 - **Concept 1**: Forward algorithm
 - **Concept 2**: Viterbi decode
 
-## [Chapter :seven:](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch07_autoencoder) - Autoencoders
+## [Chapter 7](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch07_autoencoder) - Autoencoders
 
 - **Concept 1**: Autoencoder
 - **Concept 2**: Applying an autoencoder to images
 - **Concept 3**: Denoising autoencoder
 
-## [Chapter :eight:](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch08_rl) - Reinforcement learning
+## [Chapter 8](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch08_rl) - Reinforcement learning
 
 - **Concept 1**: Reinforcement learning
 
-## [Chapter :nine:](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch09_cnn) - Convolutional Neural Networks
+## [Chapter 9](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch09_cnn) - Convolutional Neural Networks
 
 - **Concept 1**: Using CIFAR-10 dataset
 - **Concept 2**: Convolutions
 - **Concept 3**: Convolutional neural network
 
-## [Chapter :keycap_ten:](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch10_rnn) - Recurrent Neural Network
+## [Chapter 10](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch10_rnn) - Recurrent Neural Network
 
 - **Concept 1**: Loading timeseries data
 - **Concept 2**: Recurrent neural networks
