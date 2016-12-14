@@ -1,6 +1,6 @@
 # Chapter 8
 
-<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://tensorflowbook.com/imgs/ch08_main.png"/></a></p>
+<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://i.imgur.com/9B8Pfkc.png"/></a></p>
 
 Humans learn from past experiences (or, you know, at least they should). You didn’t get so charming by accident. Years of positive compliments as well as negative criticism have all helped shape who you are today. This chapter is all about designing a machine learning system driven by criticisms and rewards.
 

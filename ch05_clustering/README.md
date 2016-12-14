@@ -1,6 +1,6 @@
 # Chapter 5
 
-<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://tensorflowbook.com/imgs/ch05_main.png"/></a></p>
+<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://i.imgur.com/OMR8tkf.png"/></a></p>
 
 Suppose there’s a collection of not-pirated-totally-legal mp3s on your hard drive. All your songs are crowded in one massive folder. But it might help to automatically group together similar songs and organize them into categories like “country,” “rap,” “rock,” and so on. This act of assigning an item to a group (such as an mp3 to a playlist) in an unsupervised fashion is called clustering.
 

@@ -1,6 +1,6 @@
 # Chapter 7
 
-<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://tensorflowbook.com/imgs/ch07_main.png"/></a></p>
+<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://i.imgur.com/sBoP8cg.png"/></a></p>
 
 
 Have you ever identified a song from a person just humming a melody? It might be easy for you, but I’m comically tone-deaf when it comes to music. Humming, by itself, is an approximation of its corresponding song. An even better approximation could be singing. Include some instrumentals, and sometimes a cover of a song sounds indistinguishable from the original.

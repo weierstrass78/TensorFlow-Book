@@ -1,6 +1,6 @@
 # Chapter 3
 
-<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://tensorflowbook.com/imgs/ch03_main.png"/></a></p>
+<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://i.imgur.com/F2FOdon.png"/></a></p>
 
 Remember science courses back in grade school? It might have been a while ago, or who knows - maybe you’re in grade school now starting your journey in machine learning early. Either way, whether you took biology, chemistry, or physics, a common technique to analyze data is to plot how changing one variable affects the other.
 

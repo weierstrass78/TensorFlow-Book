@@ -1,6 +1,6 @@
 # Chapter 6
 
-<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://tensorflowbook.com/imgs/ch06_main.png"/></a></p>
+<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://i.imgur.com/yhpbDGv.png"/></a></p>
 
 If a rocket blows up, someone’s probably getting fired, so rocket scientists and engineers must be able to make confident decisions about all components and configurations. They do so by physical simulations and mathematical deduction from first principles. You, too, have solved science problems with pure logical thinking. Consider Boyle’s law: pressure and volume of a gas are inversely related under a fixed temperature. You can make insightful inferences from these simple laws that have been discovered about the world. Recently, machine learning has started to play the role of an important side-kick to deductive reasoning.
 

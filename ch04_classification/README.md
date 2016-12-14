@@ -1,6 +1,6 @@
 # Chapter 4
 
-<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://tensorflowbook.com/imgs/ch04_main.png"/></a></p>
+<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://i.imgur.com/8pYWN0k.png"/></a></p>
 
 Imagine an advertisement agency collecting information about user interactions to decide what type of ad to show. That’s not so uncommon. Google, Twitter, Facebook, and other big tech giants that rely on ads have creepy-good personal profiles of their users to help deliver personalized ads. A user who’s recently searched for gaming keyboards or graphics cards is probably more likely to click ads about the latest and greatest video games.
 

@@ -1,6 +1,6 @@
 # Chapter 10
 
-<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://tensorflowbook.com/imgs/ch10_main.png"/></a></p>
+<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://i.imgur.com/IZbRx4E.png"/></a></p>
 
 Back in school, I remember the sigh of relief when one of my midterm exams was made up of only true-or-false questions. I can’t be the only one that assumed half the answers would be “true” and the other half would be “false.”
 

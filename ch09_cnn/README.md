@@ -1,6 +1,6 @@
 # Chapter 9
 
-<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://tensorflowbook.com/imgs/ch09_main.png"/></a></p>
+<p align="center"><a href="http://tensorflowbook.com" target="_blank"><img src="http://i.imgur.com/5WIGI1r.png"/></a></p>
 
 After a long day of work, when I go grocery shopping, my eyes feel bombarded with information. Sales, coupons, colors, toddlers, flashing lights, crowded aisles are just a few examples of all the signals my eyes pick up, whether or not I actively try to pay attention. The visual system absorbs an abundance of information. 
 
