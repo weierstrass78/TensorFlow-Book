@@ -6,7 +6,7 @@ def get_batch(X, size):
     return X[a]
 
 class Autoencoder:
-    def __init__(self, input_dim, hidden_dim, epoch=200, batch_size=10, learning_rate=0.001):
+    def __init__(self, input_dim, hidden_dim, epoch=1000, batch_size=50, learning_rate=0.001):
         self.epoch = epoch
         self.batch_size = batch_size
         self.learning_rate = learning_rate
@@ -25,17 +25,16 @@ class Autoencoder:
         self.encoded = encoded
         self.decoded = decoded
 
-        self.loss = tf.sqrt(tf.reduce_mean(tf.square(tf.sub(self.x, self.decoded))))
-
-        self.all_loss = tf.sqrt(tf.reduce_mean(tf.square(tf.sub(self.x, self.decoded)), 1))
-        self.train_op = tf.train.AdamOptimizer(self.learning_rate).minimize(self.loss)
+        self.loss = tf.sqrt(tf.reduce_mean(tf.square(tf.subtract(self.x, self.decoded))))
+        self.train_op = tf.train.RMSPropOptimizer(self.learning_rate).minimize(self.loss)
+        
         self.saver = tf.train.Saver()
 
     def train(self, data):
         with tf.Session() as sess:
-            sess.run(tf.initialize_all_variables())
+            sess.run(tf.global_variables_initializer())
             for i in range(self.epoch):
-                for j in range(500):
+                for j in range(np.shape(data)[0] // self.batch_size):
                     batch_data = get_batch(data, self.batch_size)
                     l, _ = sess.run([self.loss, self.train_op], feed_dict={self.x: batch_data})
                 if i % 10 == 0:
@@ -60,7 +59,7 @@ class Autoencoder:
 
     def classify(self, data, labels):
         with tf.Session() as sess:
-            sess.run(tf.initialize_all_variables())
+            sess.run(tf.global_variables_initializer())
             self.saver.restore(sess, './model.ckpt')
             hidden, reconstructed = sess.run([self.encoded, self.decoded], feed_dict={self.x: data})
             reconstructed = reconstructed[0]
@@ -75,11 +74,11 @@ class Autoencoder:
             not_horse_loss = np.mean(loss[not_horse_indices])
             print('horse', horse_loss)
             print('not horse', not_horse_loss)
-            return hidden[7,:]
+            return hidden
 
     def decode(self, encoding):
         with tf.Session() as sess:
-            sess.run(tf.initialize_all_variables())
+            sess.run(tf.global_variables_initializer())
             self.saver.restore(sess, './model.ckpt')
             reconstructed = sess.run(self.decoded, feed_dict={self.encoded: encoding})
         img = np.reshape(reconstructed, (32, 32))
