@@ -4,7 +4,7 @@ def my_loss_function(var, data):
     return tf.abs(tf.sub(var, data))
 
 def my_other_loss_function(var, data):
-    return tf.square(tf.sub(var, data))
+    return tf.square(tf.subtract(var, data))
 
 data = tf.placeholder(tf.float32)
 var = tf.Variable(1.)
