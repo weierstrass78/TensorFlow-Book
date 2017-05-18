@@ -12,6 +12,6 @@ loss = my_loss_function(var, data)
 var_grad = tf.gradients(loss, [var])[0]
 
 with tf.Session() as sess:
-    sess.run(tf.initialize_all_variables())
+    sess.run(tf.global_variables_initializer())
     var_grad_val = sess.run(var_grad, feed_dict={data: 4})
     print(var_grad_val)
