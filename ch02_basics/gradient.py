@@ -1,7 +1,7 @@
 import tensorflow as tf
 
 def my_loss_function(var, data):
-    return tf.abs(tf.sub(var, data))
+    return tf.abs(tf.subtract(var, data))
 
 def my_other_loss_function(var, data):
     return tf.square(tf.subtract(var, data))
