@@ -64,3 +64,8 @@ Get started with machine learning using TensorFlow, Google's latest and greatest
 - **Concept 1**: Loading timeseries data
 - **Concept 2**: Recurrent neural networks
 - **Concept 3**: Applying RNN to real-world data for timeseries prediction
+
+## [Chapter 11](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch11_word2vec) - Word Embeddings (not in book)
+
+- **Concept 1**: Embedding lookup
+- *... in progress*
