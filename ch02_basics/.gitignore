@@ -1,3 +1,5 @@
 *.ckpt.*
 checkpoint
 logs
+big.txt
+.ipynb*
