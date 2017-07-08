@@ -12,11 +12,11 @@ curr_value = tf.placeholder(tf.float32)
 prev_avg = tf.Variable(0.)
 update_avg = alpha * curr_value + (1 - alpha) * prev_avg
 
-avg_hist = tf.scalar_summary("running average", update_avg)
-value_hist = tf.scalar_summary("incoming values", curr_value)
-merged = tf.merge_all_summaries()
-writer = tf.train.SummaryWriter("./logs")
-init = tf.initialize_all_variables()
+avg_hist = tf.summary.scalar("running_avg", update_avg)
+value_hist = tf.summary.scalar("incoming_values", curr_value)
+merged = tf.summary.merge_all()
+writer = tf.summary.FileWriter('./logs')
+init = tf.global_variables_initializer()
 
 with tf.Session() as sess:
     sess.run(init)
