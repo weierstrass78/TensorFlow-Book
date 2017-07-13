@@ -30,7 +30,7 @@ class SeriesPredictor:
         :param W: matrix of fully-connected output layer weights
         :param b: vector of fully-connected output layer biases
         """
-        cell = rnn_cell.BasicLSTMCell(self.hidden_dim)
+        cell = rnn_cell.BasicLSTMCell(self.hidden_dim, reuse=tf.get_variable_scope().reuse)
         outputs, states = rnn.dynamic_rnn(cell, self.x, dtype=tf.float32)
         num_examples = tf.shape(self.x)[0]
         W_repeated = tf.tile(tf.expand_dims(self.W_out, 0), [num_examples, 1, 1])
