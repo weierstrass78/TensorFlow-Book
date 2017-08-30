@@ -65,7 +65,14 @@ Get started with machine learning using TensorFlow, Google's latest and greatest
 - **Concept 2**: Recurrent neural networks
 - **Concept 3**: Applying RNN to real-world data for timeseries prediction
 
-## [Chapter 11](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch11_word2vec) - Word Embeddings (not in book)
+## [Chapter 11](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch11_seq2seq) - Seq2Seq Model
 
-- **Concept 1**: Embedding lookup
-- *... in progress*
+- **Concept 1**: Multi-cell RNN
+- **Concept 2**: Embedding lookup
+- **Concept 3**: Seq2seq model
+
+## [Chapter 12](https://github.com/BinRoot/TensorFlow-Book/tree/master/ch12_rank) - Ranking
+
+- **Concept 1**: RankNet
+- **Concept 2**: Image embedding
+- **Concept 3**: Image ranking
